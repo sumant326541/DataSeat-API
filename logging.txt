@@ -1,0 +1,671 @@
+Request method:	GET
+Request URI:	https://datausa.io/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2012
+Proxy:			<none>
+Request params:	<none>
+Query params:	drilldowns=[Nation, Nation]
+				measures=Population
+				year=2012
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 06:19:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-dns-prefetch-control: off
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-language: en
+etag: W/"1c7-YAP/YO9ipVCEmPCNDsM4PYiWGBc"
+vary: Accept-Encoding
+last-modified: Thu, 12 May 2022 06:19:45 GMT
+x-cache-status: MISS
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, OPTIONS
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+x-cache-key: GET/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2012
+Cache-Control: max-age=1800
+CF-Cache-Status: MISS
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=DAVmneslYDUkrJylPQNsBK3k6bJ%2BTX6YwjGNfQa35tg7QTm4C0UFb0dijySeqDgOxDe7OkV4iCo0sJAOzc3P0ZBayXocJ4XAdLNv9L89Bfvk0tNiWQEfBUmqor8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 70a10b622dd76ec5-BOM
+Content-Encoding: gzip
+
+{
+    "data": [
+        
+    ],
+    "source": [
+        {
+            "measures": [
+                "Population"
+            ],
+            "annotations": {
+                "source_name": "Census Bureau",
+                "source_description": "The American Community Survey (ACS) is conducted by the US Census and sent to a portion of the population every year.",
+                "dataset_name": "ACS 1-year Estimate",
+                "dataset_link": "http://www.census.gov/programs-surveys/acs/",
+                "table_id": "B01003",
+                "topic": "Diversity",
+                "subtopic": "Demographics"
+            },
+            "name": "acs_yg_total_population_1",
+            "substitutions": [
+                
+            ]
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://datausa.io/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2013
+Proxy:			<none>
+Request params:	<none>
+Query params:	drilldowns=[Nation, Nation]
+				measures=Population
+				year=2013
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 06:19:47 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-dns-prefetch-control: off
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-language: en
+etag: W/"249-Y7E5W7Exdr+8h6vJehy1qcK6W6A"
+vary: Accept-Encoding
+last-modified: Thu, 12 May 2022 06:19:46 GMT
+x-cache-status: MISS
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, OPTIONS
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+x-cache-key: GET/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2013
+Cache-Control: max-age=1800
+CF-Cache-Status: MISS
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FNQyFj7HTAOLPelGbZumeYgRo8j%2Bn20AfrC%2FG4tdpksxjS7hNYf7w9WvH7Hkc7pMk8y1ZiYKDylBUDnh9EKsQGnQBVEWqWrcIDDDri3ze3%2FUTaFRScoZXzWJ69Y%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 70a10b6ccc0d85a1-BOM
+Content-Encoding: gzip
+
+{
+    "data": [
+        {
+            "ID Nation": "01000US",
+            "Nation": "United States",
+            "ID Year": 2013,
+            "Year": "2013",
+            "Population": 316128839,
+            "Slug Nation": "united-states"
+        }
+    ],
+    "source": [
+        {
+            "measures": [
+                "Population"
+            ],
+            "annotations": {
+                "source_name": "Census Bureau",
+                "source_description": "The American Community Survey (ACS) is conducted by the US Census and sent to a portion of the population every year.",
+                "dataset_name": "ACS 1-year Estimate",
+                "dataset_link": "http://www.census.gov/programs-surveys/acs/",
+                "table_id": "B01003",
+                "topic": "Diversity",
+                "subtopic": "Demographics"
+            },
+            "name": "acs_yg_total_population_1",
+            "substitutions": [
+                
+            ]
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://datausa.io/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2014
+Proxy:			<none>
+Request params:	<none>
+Query params:	drilldowns=[Nation, Nation]
+				measures=Population
+				year=2014
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 06:19:48 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-dns-prefetch-control: off
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-language: en
+etag: W/"249-pNJSYRm/MlciwF9G/gZ/fXxXYnQ"
+vary: Accept-Encoding
+last-modified: Thu, 12 May 2022 06:19:48 GMT
+x-cache-status: MISS
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, OPTIONS
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+x-cache-key: GET/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2014
+Cache-Control: max-age=1800
+CF-Cache-Status: MISS
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HYkHjPiIAPAvbqpF3t6F1KlMvVjBFKk6LhjfWq6BnWU8T6aWjpAGrA6X7a16e82E5pParjLwWVMcgoDfCd5TX%2BZqq3NLu3hj411u%2BB7KM%2Bf%2BVy%2BpNIWmMfbJAm8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 70a10b74eb2a84ad-BOM
+Content-Encoding: gzip
+
+{
+    "data": [
+        {
+            "ID Nation": "01000US",
+            "Nation": "United States",
+            "ID Year": 2014,
+            "Year": "2014",
+            "Population": 318857056,
+            "Slug Nation": "united-states"
+        }
+    ],
+    "source": [
+        {
+            "measures": [
+                "Population"
+            ],
+            "annotations": {
+                "source_name": "Census Bureau",
+                "source_description": "The American Community Survey (ACS) is conducted by the US Census and sent to a portion of the population every year.",
+                "dataset_name": "ACS 1-year Estimate",
+                "dataset_link": "http://www.census.gov/programs-surveys/acs/",
+                "table_id": "B01003",
+                "topic": "Diversity",
+                "subtopic": "Demographics"
+            },
+            "name": "acs_yg_total_population_1",
+            "substitutions": [
+                
+            ]
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://datausa.io/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2015
+Proxy:			<none>
+Request params:	<none>
+Query params:	drilldowns=[Nation, Nation]
+				measures=Population
+				year=2015
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 06:19:49 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-dns-prefetch-control: off
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-language: en
+etag: W/"249-mP9EZPQK1ygyhKI1vHbWyE84Dr4"
+vary: Accept-Encoding
+last-modified: Thu, 12 May 2022 06:19:49 GMT
+x-cache-status: MISS
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, OPTIONS
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+x-cache-key: GET/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2015
+Cache-Control: max-age=1800
+CF-Cache-Status: MISS
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=D4x%2FQ35UA10WR4c6EHCe6XlynPAU7fzBVEC4xD2f5IFaLNB95ma4AVX4Nz8Kqh5d7tiTi8LH6gmV%2BRLvkvuy9FLOndUZYOQ5%2Bs1adubmAZZ9XJWiZs3zbFfpEj8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 70a10b7dabe42e59-BOM
+Content-Encoding: gzip
+
+{
+    "data": [
+        {
+            "ID Nation": "01000US",
+            "Nation": "United States",
+            "ID Year": 2015,
+            "Year": "2015",
+            "Population": 321418821,
+            "Slug Nation": "united-states"
+        }
+    ],
+    "source": [
+        {
+            "measures": [
+                "Population"
+            ],
+            "annotations": {
+                "source_name": "Census Bureau",
+                "source_description": "The American Community Survey (ACS) is conducted by the US Census and sent to a portion of the population every year.",
+                "dataset_name": "ACS 1-year Estimate",
+                "dataset_link": "http://www.census.gov/programs-surveys/acs/",
+                "table_id": "B01003",
+                "topic": "Diversity",
+                "subtopic": "Demographics"
+            },
+            "name": "acs_yg_total_population_1",
+            "substitutions": [
+                
+            ]
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://datausa.io/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2016
+Proxy:			<none>
+Request params:	<none>
+Query params:	drilldowns=[Nation, Nation]
+				measures=Population
+				year=2016
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 06:19:51 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-dns-prefetch-control: off
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-language: en
+etag: W/"249-rWJhXXwcDZu71mRJElpPhAqZhNo"
+vary: Accept-Encoding
+last-modified: Thu, 12 May 2022 06:19:51 GMT
+x-cache-status: MISS
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, OPTIONS
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+x-cache-key: GET/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2016
+Cache-Control: max-age=1800
+CF-Cache-Status: MISS
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rDxI4eMyIruU0KfXPkBhg1TgfuxG6oWhSyqQVDDs8iRZ6CMR3Y0LreohZLb5hdjKySYOidCB20n4NAQossyiaiRPrORipcdAsaEurtyx2P%2FcwEL6oOphJu7ORhs%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 70a10b862da685f6-BOM
+Content-Encoding: gzip
+
+{
+    "data": [
+        {
+            "ID Nation": "01000US",
+            "Nation": "United States",
+            "ID Year": 2016,
+            "Year": "2016",
+            "Population": 323127515,
+            "Slug Nation": "united-states"
+        }
+    ],
+    "source": [
+        {
+            "measures": [
+                "Population"
+            ],
+            "annotations": {
+                "source_name": "Census Bureau",
+                "source_description": "The American Community Survey (ACS) is conducted by the US Census and sent to a portion of the population every year.",
+                "dataset_name": "ACS 1-year Estimate",
+                "dataset_link": "http://www.census.gov/programs-surveys/acs/",
+                "table_id": "B01003",
+                "topic": "Diversity",
+                "subtopic": "Demographics"
+            },
+            "name": "acs_yg_total_population_1",
+            "substitutions": [
+                
+            ]
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://datausa.io/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2017
+Proxy:			<none>
+Request params:	<none>
+Query params:	drilldowns=[Nation, Nation]
+				measures=Population
+				year=2017
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 06:19:52 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-dns-prefetch-control: off
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-language: en
+etag: W/"249-HlkpwlhTj2aUS62RmVsdsUZcd9E"
+vary: Accept-Encoding
+last-modified: Thu, 12 May 2022 06:19:52 GMT
+x-cache-status: MISS
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, OPTIONS
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+x-cache-key: GET/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2017
+Cache-Control: max-age=1800
+CF-Cache-Status: MISS
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yVreDPLNzoznmhWQ6HS%2FJbNUPQYUdUuEazbTLMvunuP9xE07q7b6G2%2BHQseJIua%2FH1DdLoRWPk1CDoi0mv680JHulWX5JV0UwxFZAvIjMIJRZ1Ly7HW%2FYcrOXB8%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 70a10b8e2e586ecb-BOM
+Content-Encoding: gzip
+
+{
+    "data": [
+        {
+            "ID Nation": "01000US",
+            "Nation": "United States",
+            "ID Year": 2017,
+            "Year": "2017",
+            "Population": 325719178,
+            "Slug Nation": "united-states"
+        }
+    ],
+    "source": [
+        {
+            "measures": [
+                "Population"
+            ],
+            "annotations": {
+                "source_name": "Census Bureau",
+                "source_description": "The American Community Survey (ACS) is conducted by the US Census and sent to a portion of the population every year.",
+                "dataset_name": "ACS 1-year Estimate",
+                "dataset_link": "http://www.census.gov/programs-surveys/acs/",
+                "table_id": "B01003",
+                "topic": "Diversity",
+                "subtopic": "Demographics"
+            },
+            "name": "acs_yg_total_population_1",
+            "substitutions": [
+                
+            ]
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://datausa.io/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2018
+Proxy:			<none>
+Request params:	<none>
+Query params:	drilldowns=[Nation, Nation]
+				measures=Population
+				year=2018
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 06:19:53 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-dns-prefetch-control: off
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-language: en
+etag: W/"249-R/0NJmtQvHNjeczsvx6D4lREhkw"
+vary: Accept-Encoding
+last-modified: Thu, 12 May 2022 06:19:53 GMT
+x-cache-status: MISS
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, OPTIONS
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+x-cache-key: GET/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2018
+Cache-Control: max-age=1800
+CF-Cache-Status: MISS
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=tyGLR3ZW43BTEzAmFzN%2FBY6jOdHEA0bsKExaKIn9w8Ll%2BMuK5h864qiASfkZOKGrIzSn%2FIS7eSLqYoM%2Boc4O9Y3rnDygFvQGXVo%2FpcgW2%2FYUp3o4prv3V3Ldv60%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 70a10b96297185e4-BOM
+Content-Encoding: gzip
+
+{
+    "data": [
+        {
+            "ID Nation": "01000US",
+            "Nation": "United States",
+            "ID Year": 2018,
+            "Year": "2018",
+            "Population": 327167439,
+            "Slug Nation": "united-states"
+        }
+    ],
+    "source": [
+        {
+            "measures": [
+                "Population"
+            ],
+            "annotations": {
+                "source_name": "Census Bureau",
+                "source_description": "The American Community Survey (ACS) is conducted by the US Census and sent to a portion of the population every year.",
+                "dataset_name": "ACS 1-year Estimate",
+                "dataset_link": "http://www.census.gov/programs-surveys/acs/",
+                "table_id": "B01003",
+                "topic": "Diversity",
+                "subtopic": "Demographics"
+            },
+            "name": "acs_yg_total_population_1",
+            "substitutions": [
+                
+            ]
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://datausa.io/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2019
+Proxy:			<none>
+Request params:	<none>
+Query params:	drilldowns=[Nation, Nation]
+				measures=Population
+				year=2019
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 06:19:54 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-dns-prefetch-control: off
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-language: en
+etag: W/"249-S6yFE+y4kUoK1dp2XseqyfwwENQ"
+vary: Accept-Encoding
+last-modified: Wed, 11 May 2022 11:21:19 GMT
+x-cache-status: MISS
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, OPTIONS
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+x-cache-key: GET/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2019
+Cache-Control: max-age=1800
+CF-Cache-Status: HIT
+Age: 68315
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=KiewulDgnelYHs%2B5yDfomJVWqa0koJL8TAWJJRAZZfP20kkNE10Sxn%2BSspAUDkaczDkIlHmKrT2MG1DSZ3hSaqZp8KrHmfiBB3D0ksKjnl0soGguVHul5XIrE9M%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 70a10b9e8b766ef4-BOM
+Content-Encoding: gzip
+
+{
+    "data": [
+        {
+            "ID Nation": "01000US",
+            "Nation": "United States",
+            "ID Year": 2019,
+            "Year": "2019",
+            "Population": 328239523,
+            "Slug Nation": "united-states"
+        }
+    ],
+    "source": [
+        {
+            "measures": [
+                "Population"
+            ],
+            "annotations": {
+                "source_name": "Census Bureau",
+                "source_description": "The American Community Survey (ACS) is conducted by the US Census and sent to a portion of the population every year.",
+                "dataset_name": "ACS 1-year Estimate",
+                "dataset_link": "http://www.census.gov/programs-surveys/acs/",
+                "table_id": "B01003",
+                "topic": "Diversity",
+                "subtopic": "Demographics"
+            },
+            "name": "acs_yg_total_population_1",
+            "substitutions": [
+                
+            ]
+        }
+    ]
+}
+Request method:	GET
+Request URI:	https://datausa.io/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2020
+Proxy:			<none>
+Request params:	<none>
+Query params:	drilldowns=[Nation, Nation]
+				measures=Population
+				year=2020
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json; charset=UTF-8
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Thu, 12 May 2022 06:19:55 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+x-dns-prefetch-control: off
+strict-transport-security: max-age=15552000; includeSubDomains
+x-download-options: noopen
+x-content-type-options: nosniff
+x-xss-protection: 1; mode=block
+content-language: en
+etag: W/"1c7-YAP/YO9ipVCEmPCNDsM4PYiWGBc"
+vary: Accept-Encoding
+last-modified: Thu, 12 May 2022 06:19:55 GMT
+x-cache-status: MISS
+x-frame-options: SAMEORIGIN
+access-control-allow-origin: *
+access-control-allow-credentials: true
+access-control-allow-methods: GET, POST, OPTIONS
+access-control-allow-headers: DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type
+x-cache-key: GET/api/data?drilldowns=Nation&drilldowns=Nation&measures=Population&year=2020
+Cache-Control: max-age=1800
+CF-Cache-Status: MISS
+Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=FrmejTv80dcD9XCY2ob2%2FLX%2FYleI0flhSbf6mslkHUUf7JNjosh751P0XL30qxDMMUybhq1FUaPMMfOtinmFchNcDaIMZWyB%2FJVkc%2BHgj3N6D5pEcSmlph96rGg%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 70a10ba01fdc85f1-BOM
+Content-Encoding: gzip
+
+{
+    "data": [
+        
+    ],
+    "source": [
+        {
+            "measures": [
+                "Population"
+            ],
+            "annotations": {
+                "source_name": "Census Bureau",
+                "source_description": "The American Community Survey (ACS) is conducted by the US Census and sent to a portion of the population every year.",
+                "dataset_name": "ACS 1-year Estimate",
+                "dataset_link": "http://www.census.gov/programs-surveys/acs/",
+                "table_id": "B01003",
+                "topic": "Diversity",
+                "subtopic": "Demographics"
+            },
+            "name": "acs_yg_total_population_1",
+            "substitutions": [
+                
+            ]
+        }
+    ]
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="9" time="12.867633">
+<testcase classname="Validating Place API's" name="Verify population for perticular year" time="3.252624">
+<failure message="java.lang.NullPointerException&#10;&#9;at io.restassured.path.json.JsonPath.getInt(JsonPath.java:245)&#10;&#9;at stepDefinations.StepDefination.verify_Population_Of_the_Year(StepDefination.java:111)&#10;&#9;at ✽.verify population for the &quot;2012&quot;(file:src/test/java/features/placeValidations.feature:53)&#10;"><![CDATA[Given GetPopulation Payload for "2012"......................................passed
+When user calls "getPopulationAPI" with "GET" http request..................passed
+Then the API call got success with status code 200..........................passed
+Then verify population for the "2012".......................................failed
+And verify year and year ID is same as "2012"...............................skipped
+And verify "01000US" "United States" and "united-states"....................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at io.restassured.path.json.JsonPath.getInt(JsonPath.java:245)
+	at stepDefinations.StepDefination.verify_Population_Of_the_Year(StepDefination.java:111)
+	at ✽.verify population for the "2012"(file:src/test/java/features/placeValidations.feature:53)
+]]></failure>
+</testcase>
+<testcase classname="Validating Place API's" name="Verify population for perticular year 2" time="1.328068">
+<system-out><![CDATA[Given GetPopulation Payload for "2013"......................................passed
+When user calls "getPopulationAPI" with "GET" http request..................passed
+Then the API call got success with status code 200..........................passed
+Then verify population for the "2013".......................................passed
+And verify year and year ID is same as "2013"...............................passed
+And verify "01000US" "United States" and "united-states"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Place API's" name="Verify population for perticular year 3" time="1.410847">
+<system-out><![CDATA[Given GetPopulation Payload for "2014"......................................passed
+When user calls "getPopulationAPI" with "GET" http request..................passed
+Then the API call got success with status code 200..........................passed
+Then verify population for the "2014".......................................passed
+And verify year and year ID is same as "2014"...............................passed
+And verify "01000US" "United States" and "united-states"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Place API's" name="Verify population for perticular year 4" time="1.340229">
+<system-out><![CDATA[Given GetPopulation Payload for "2015"......................................passed
+When user calls "getPopulationAPI" with "GET" http request..................passed
+Then the API call got success with status code 200..........................passed
+Then verify population for the "2015".......................................passed
+And verify year and year ID is same as "2015"...............................passed
+And verify "01000US" "United States" and "united-states"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Place API's" name="Verify population for perticular year 5" time="1.32042">
+<system-out><![CDATA[Given GetPopulation Payload for "2016"......................................passed
+When user calls "getPopulationAPI" with "GET" http request..................passed
+Then the API call got success with status code 200..........................passed
+Then verify population for the "2016".......................................passed
+And verify year and year ID is same as "2016"...............................passed
+And verify "01000US" "United States" and "united-states"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Place API's" name="Verify population for perticular year 6" time="1.262057">
+<system-out><![CDATA[Given GetPopulation Payload for "2017"......................................passed
+When user calls "getPopulationAPI" with "GET" http request..................passed
+Then the API call got success with status code 200..........................passed
+Then verify population for the "2017".......................................passed
+And verify year and year ID is same as "2017"...............................passed
+And verify "01000US" "United States" and "united-states"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Place API's" name="Verify population for perticular year 7" time="1.348361">
+<system-out><![CDATA[Given GetPopulation Payload for "2018"......................................passed
+When user calls "getPopulationAPI" with "GET" http request..................passed
+Then the API call got success with status code 200..........................passed
+Then verify population for the "2018".......................................passed
+And verify year and year ID is same as "2018"...............................passed
+And verify "01000US" "United States" and "united-states"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Place API's" name="Verify population for perticular year 8" time="0.245667">
+<system-out><![CDATA[Given GetPopulation Payload for "2019"......................................passed
+When user calls "getPopulationAPI" with "GET" http request..................passed
+Then the API call got success with status code 200..........................passed
+Then verify population for the "2019".......................................passed
+And verify year and year ID is same as "2019"...............................passed
+And verify "01000US" "United States" and "united-states"....................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validating Place API's" name="Verify population for perticular year 9" time="1.35936">
+<failure message="java.lang.NullPointerException&#10;&#9;at io.restassured.path.json.JsonPath.getInt(JsonPath.java:245)&#10;&#9;at stepDefinations.StepDefination.verify_Population_Of_the_Year(StepDefination.java:111)&#10;&#9;at ✽.verify population for the &quot;2020&quot;(file:src/test/java/features/placeValidations.feature:53)&#10;"><![CDATA[Given GetPopulation Payload for "2020"......................................passed
+When user calls "getPopulationAPI" with "GET" http request..................passed
+Then the API call got success with status code 200..........................passed
+Then verify population for the "2020".......................................failed
+And verify year and year ID is same as "2020"...............................skipped
+And verify "01000US" "United States" and "united-states"....................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at io.restassured.path.json.JsonPath.getInt(JsonPath.java:245)
+	at stepDefinations.StepDefination.verify_Population_Of_the_Year(StepDefination.java:111)
+	at ✽.verify population for the "2020"(file:src/test/java/features/placeValidations.feature:53)
+]]></failure>
+</testcase>
+</testsuite>

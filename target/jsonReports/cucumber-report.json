@@ -1,0 +1,1320 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-12T06:19:42.527Z",
+        "line": 58,
+        "name": "Verify population for perticular year",
+        "description": "",
+        "id": "validating-place-api-s;verify-population-for-perticular-year;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 677204914,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "GetPopulation Payload for \"2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.getPopulation_Payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2279743459,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user calls \"getPopulationAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getPopulationAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1593911,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat io.restassured.path.json.JsonPath.getInt(JsonPath.java:245)\n\tat stepDefinations.StepDefination.verify_Population_Of_the_Year(StepDefination.java:111)\n\tat ✽.verify population for the \"2012\"(file:src/test/java/features/placeValidations.feature:53)\n",
+              "duration": 244407283,
+              "status": "failed"
+            },
+            "line": 53,
+            "name": "verify population for the \"2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.verify_Population_Of_the_Year(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 541097,
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "verify year and year ID is same as \"2012\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2012\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.verify_Year_And_yearID_Is_Same(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 844217,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "verify \"01000US\" \"United States\" and \"united-states\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"01000US\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"united-states\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefination.verify_IDNation_And_Nation_And_SlugNation(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetPlace"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@GetPopulation"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-12T06:19:45.787Z",
+        "line": 59,
+        "name": "Verify population for perticular year",
+        "description": "",
+        "id": "validating-place-api-s;verify-population-for-perticular-year;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2679991,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "GetPopulation Payload for \"2013\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2013\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.getPopulation_Payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1261056407,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user calls \"getPopulationAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getPopulationAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 380775,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10310082,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "verify population for the \"2013\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2013\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.verify_Population_Of_the_Year(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21153196,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "verify year and year ID is same as \"2013\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2013\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.verify_Year_And_yearID_Is_Same(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26780667,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "verify \"01000US\" \"United States\" and \"united-states\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"01000US\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"united-states\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefination.verify_IDNation_And_Nation_And_SlugNation(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetPlace"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@GetPopulation"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-12T06:19:47.115Z",
+        "line": 60,
+        "name": "Verify population for perticular year",
+        "description": "",
+        "id": "validating-place-api-s;verify-population-for-perticular-year;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4064441,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "GetPopulation Payload for \"2014\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2014\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.getPopulation_Payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1330601762,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user calls \"getPopulationAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getPopulationAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 419766,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10174016,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "verify population for the \"2014\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2014\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.verify_Population_Of_the_Year(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22271869,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "verify year and year ID is same as \"2014\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2014\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.verify_Year_And_yearID_Is_Same(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 35450109,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "verify \"01000US\" \"United States\" and \"united-states\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"01000US\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"united-states\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefination.verify_IDNation_And_Nation_And_SlugNation(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetPlace"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@GetPopulation"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-12T06:19:48.527Z",
+        "line": 61,
+        "name": "Verify population for perticular year",
+        "description": "",
+        "id": "validating-place-api-s;verify-population-for-perticular-year;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3055260,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "GetPopulation Payload for \"2015\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2015\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.getPopulation_Payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1259335659,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user calls \"getPopulationAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getPopulationAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 409855,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10120648,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "verify population for the \"2015\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2015\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.verify_Population_Of_the_Year(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26298205,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "verify year and year ID is same as \"2015\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2015\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.verify_Year_And_yearID_Is_Same(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36767680,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "verify \"01000US\" \"United States\" and \"united-states\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"01000US\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"united-states\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefination.verify_IDNation_And_Nation_And_SlugNation(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetPlace"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@GetPopulation"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-12T06:19:49.868Z",
+        "line": 62,
+        "name": "Verify population for perticular year",
+        "description": "",
+        "id": "validating-place-api-s;verify-population-for-perticular-year;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2244902,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "GetPopulation Payload for \"2016\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2016\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.getPopulation_Payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1245109963,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user calls \"getPopulationAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getPopulationAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 363114,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8116365,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "verify population for the \"2016\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2016\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.verify_Population_Of_the_Year(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 30077994,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "verify year and year ID is same as \"2016\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2016\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.verify_Year_And_yearID_Is_Same(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27730320,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "verify \"01000US\" \"United States\" and \"united-states\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"01000US\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"united-states\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefination.verify_IDNation_And_Nation_And_SlugNation(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetPlace"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@GetPopulation"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-12T06:19:51.189Z",
+        "line": 63,
+        "name": "Verify population for perticular year",
+        "description": "",
+        "id": "validating-place-api-s;verify-population-for-perticular-year;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3934543,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "GetPopulation Payload for \"2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2017\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.getPopulation_Payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1197635046,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user calls \"getPopulationAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getPopulationAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 495732,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9056607,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "verify population for the \"2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2017\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.verify_Population_Of_the_Year(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19113499,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "verify year and year ID is same as \"2017\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2017\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.verify_Year_And_yearID_Is_Same(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28182261,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "verify \"01000US\" \"United States\" and \"united-states\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"01000US\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"united-states\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefination.verify_IDNation_And_Nation_And_SlugNation(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetPlace"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@GetPopulation"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-12T06:19:52.453Z",
+        "line": 64,
+        "name": "Verify population for perticular year",
+        "description": "",
+        "id": "validating-place-api-s;verify-population-for-perticular-year;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4884124,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "GetPopulation Payload for \"2018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2018\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.getPopulation_Payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1289002015,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user calls \"getPopulationAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getPopulationAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 354033,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8914428,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "verify population for the \"2018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2018\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.verify_Population_Of_the_Year(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15422499,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "verify year and year ID is same as \"2018\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2018\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.verify_Year_And_yearID_Is_Same(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21970966,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "verify \"01000US\" \"United States\" and \"united-states\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"01000US\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"united-states\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefination.verify_IDNation_And_Nation_And_SlugNation(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetPlace"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@GetPopulation"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-12T06:19:53.802Z",
+        "line": 65,
+        "name": "Verify population for perticular year",
+        "description": "",
+        "id": "validating-place-api-s;verify-population-for-perticular-year;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2014639,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "GetPopulation Payload for \"2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2019\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.getPopulation_Payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187218310,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user calls \"getPopulationAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getPopulationAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 461157,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 11761903,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "verify population for the \"2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2019\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.verify_Population_Of_the_Year(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19479790,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "verify year and year ID is same as \"2019\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2019\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.verify_Year_And_yearID_Is_Same(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21448328,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "verify \"01000US\" \"United States\" and \"united-states\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"01000US\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"united-states\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefination.verify_IDNation_And_Nation_And_SlugNation(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetPlace"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@GetPopulation"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-05-12T06:19:54.048Z",
+        "line": 66,
+        "name": "Verify population for perticular year",
+        "description": "",
+        "id": "validating-place-api-s;verify-population-for-perticular-year;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2274946,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "GetPopulation Payload for \"2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.getPopulation_Payload(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1341722856,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user calls \"getPopulationAPI\" with \"GET\" http request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getPopulationAPI\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"GET\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.user_calls_with_http_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 465874,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "the API call got success with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 42
+                }
+              ],
+              "location": "StepDefination.the_API_call_got_success_with_status_code(Integer)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.NullPointerException\n\tat io.restassured.path.json.JsonPath.getInt(JsonPath.java:245)\n\tat stepDefinations.StepDefination.verify_Population_Of_the_Year(StepDefination.java:111)\n\tat ✽.verify population for the \"2020\"(file:src/test/java/features/placeValidations.feature:53)\n",
+              "duration": 9629393,
+              "status": "failed"
+            },
+            "line": 53,
+            "name": "verify population for the \"2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020\"",
+                  "offset": 26
+                }
+              ],
+              "location": "StepDefination.verify_Population_Of_the_Year(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 412421,
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "verify year and year ID is same as \"2020\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2020\"",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefination.verify_Year_And_yearID_Is_Same(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 442689,
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "verify \"01000US\" \"United States\" and \"united-states\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"01000US\"",
+                  "offset": 7
+                },
+                {
+                  "val": "\"United States\"",
+                  "offset": 17
+                },
+                {
+                  "val": "\"united-states\"",
+                  "offset": 37
+                }
+              ],
+              "location": "StepDefination.verify_IDNation_And_Nation_And_SlugNation(String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@GetPlace"
+          },
+          {
+            "name": "@Regression"
+          },
+          {
+            "name": "@GetPopulation"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Validating Place API\u0027s",
+    "description": "",
+    "id": "validating-place-api-s",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/placeValidations.feature",
+    "tags": []
+  }
+]
